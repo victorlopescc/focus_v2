@@ -1,6 +1,6 @@
-import state from './state';
-import * as events from './events';
-import * as timer from './timer';
+import state from './state.js';
+import * as timer from './timer.js';
+import * as events from './events.js';
 
 export function start(minutes, seconds) {
     state.minutes = minutes;
